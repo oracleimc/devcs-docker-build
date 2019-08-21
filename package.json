@@ -1,0 +1,36 @@
+{
+  "name": "helloworld",
+  "version": "1.0.0",
+  "description": "Hello World Service",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "npx mocha --exit",
+    "start": "node dist/common.bundle.js",
+    "build": "npx webpack",
+    "lint": "npx eslint --ignore-path .gitignore src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://idcs-b6241c360d1e45b4bfec846a1b1f9ab0.alper.ozisik%40oracle.com@alper-emeaccoe.developer.ocp.oraclecloud.com/alper-emeaccoe_helloworld_4880/HelloWorld.git"
+  },
+  "keywords": [
+    "Oracle",
+    "HelloWorld",
+    "IMC",
+    "CCOE"
+  ],
+  "author": "Alper Ozisik <alper.ozisik@oracle.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "eslint": "^6.1.0",
+    "mocha": "^6.2.0",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6"
+  }
+}
