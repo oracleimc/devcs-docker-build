@@ -23,7 +23,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch App",
-            "program": "${workspaceFolder}/app.js"
+            "program": "${workspaceFolder}/src/app.js"
         }
     ]
 }
