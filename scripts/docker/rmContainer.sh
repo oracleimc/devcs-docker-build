@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-docker rm -f helloworld-dev
+docker rm -f helloworld
